@@ -148,3 +148,38 @@ body{
 .lista__link a:hover {
     color: var(--botao-azul);
 }
+
+@media screen and (max-width:980px){
+
+    .container,
+    .principal,
+    .secundario,
+    .dispositivos,
+    .rodape,
+    .container__caixa{
+    width: auto;
+     height: auto;
+     display:inline-block;
+     margin: auto;
+    }
+  
+    .container__imagem,
+    .secundario__imagem,
+    .lista__item{
+        margin: 1em 0 2em 0;
+        width: 20%;
+    }
+    .dispositivos__lista,
+    .rodape__lista,
+    .lista__link,
+    .lista__item{
+        display: block;
+        width: 90%;
+        margin: 5%;
+        position: static;
+    }
+
+    .container__titulo{
+        font-size: 22px;
+    }
+}
